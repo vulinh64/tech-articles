@@ -22,7 +22,7 @@ TBA (Don't be surprised if I use A.I to generate this section) 💀
 
 * [Required Arguments Construtors](lombok-guideline/0008-required-args-constructors.MD)
 
-* [@Locked](lombok-guideline/0009-locked.MD)]
+* [@Locked](lombok-guideline/0009-locked.MD)
 
 * [`var` and `val`](lombok-guideline/0010-var-and-val.MD)
 
