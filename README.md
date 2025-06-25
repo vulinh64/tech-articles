@@ -4,7 +4,9 @@ TBA (Don't be surprised if I use A.I to generate this section) 💀
 
 ## My Articles So Far
 
-### [1. Lombok Guide](lombok-guideline)
+### [Java HashMap 101](java-hashmap-101/java-hashmap-101.MD)
+
+### [Lombok Guide](lombok-guideline)
 
 * [Lombok Installation](lombok-guideline/0001-lombok-installation.MD)
  
@@ -26,12 +28,12 @@ TBA (Don't be surprised if I use A.I to generate this section) 💀
 
 * [`var` and `val`](lombok-guideline/0010-var-and-val.MD)
 
-### [2. QueryDSL](querydsl)
+### [QueryDSL](querydsl)
 
 * [New OpenFeign's Fork of QueryDSL](querydsl/new-openfeign-querydsl.MD)
 
 * [Modern QueryDSL Dependencies](querydsl/new-querydsl-dependencies.MD)
 
-### [3. String Immutability](string-immutability/string-immutability.MD)
+### [String Immutability](string-immutability/string-immutability.MD)
 
-### [4. Swap Two Numbers](swap-two-numbers/swap-two-numbers.MD)
+### [Swap Two Numbers](swap-two-numbers/swap-two-numbers.MD)
