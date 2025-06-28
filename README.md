@@ -1,39 +1,41 @@
-## About ME
+# Website
 
-TBA (Don't be surprised if I use A.I to generate this section) 💀
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-## My Articles So Far
+## Installation
 
-### [Java HashMap 101](java-hashmap-101/java-hashmap-101.MD)
+```bash
+yarn
+```
 
-### [Lombok Guide](lombok-guideline)
+## Local Development
 
-* [Lombok Installation](lombok-guideline/0001-lombok-installation.MD)
- 
-* [Lombok IntelliJ Plugin](lombok-guideline/0002-lombok-intellij-plugin.MD)
+```bash
+yarn start
+```
 
-* [Lombok Introduction](lombok-guideline/0003-lombok-introduction.MD)
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-* [JPA Entities](lombok-guideline/0004-jpa-entity.MD)
+## Build
 
-* [Normal DTOs](lombok-guideline/0005-normal-dto.MD)
+```bash
+yarn build
+```
 
-* [Java Records](lombok-guideline/0006-java-records.MD)
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-* [Sneaky Throws](lombok-guideline/0007-sneaky-throws.MD)
+## Deployment
 
-* [Required Arguments Construtors](lombok-guideline/0008-required-args-constructors.MD)
+Using SSH:
 
-* [@Locked](lombok-guideline/0009-locked.MD)
+```bash
+USE_SSH=true yarn deploy
+```
 
-* [`var` and `val`](lombok-guideline/0010-var-and-val.MD)
+Not using SSH:
 
-### [QueryDSL](querydsl)
+```bash
+GIT_USER=<Your GitHub username> yarn deploy
+```
 
-* [New OpenFeign's Fork of QueryDSL](querydsl/new-openfeign-querydsl.MD)
-
-* [Modern QueryDSL Dependencies](querydsl/new-querydsl-dependencies.MD)
-
-### [String Immutability](string-immutability/string-immutability.MD)
-
-### [Swap Two Numbers](swap-two-numbers/swap-two-numbers.MD)
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

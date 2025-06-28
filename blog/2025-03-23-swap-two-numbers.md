@@ -1,4 +1,9 @@
-# Swapping Two Numbers in Java: From Boring to "Wait, That Actually Works?"
+---
+slug: swap-two-numbers-intricate
+title: Swap Two Numbers Intricate
+authors: [vulinh64]
+tags: [java]
+---
 
 So you want to swap two variables in Java? Cool, cool. Let me guess -- you learned the classic way back in CS 101:
 
@@ -16,6 +21,8 @@ spectacularly or discovered some forbidden programming knowledge that normal peo
 
 Buckle up, buttercup -- we're about to go down a rabbit hole.
 
+<!--truncate-->
+
 ## Method 1: The "I'm Too Cool for Temporary Variables" Approach
 
 First up, we have the arithmetic method for rebels who think extra variables are for weaklings:
@@ -29,13 +36,13 @@ a -= b;  // ...right? RIGHT?
 This works by turning your first variable into a mathematical hoarder -- it grabs both values, holds onto them like a
 dragon with treasure, then spits them back out in the right order through the magic of subtraction.
 
-**"But what about integer overflow?"** 
+**"But what about integer overflow?"**
 
 I hear you cry into the void.
 
-Don't worry about it. 
+Don't worry about it.
 
-Seriously. 
+Seriously.
 
 I've tested this thing with numbers so big they make your computer wheeze, and it still
 works. Java's two's complement arithmetic is like that friend who always has your back -- even when everything goes
@@ -169,17 +176,17 @@ old-timers still get twitchy when they see non-synchronized `long` operations!
 
 ## So When Should You Actually Use These?
 
-**The honest answer?** 
+**The honest answer?**
 
 Probably never.
 
-**Temporary variable method**: This is your bread and butter. It's like a reliable friend who shows up when they say 
+**Temporary variable method**: This is your bread and butter. It's like a reliable friend who shows up when they say
 they will and doesn't try to impress you with magic tricks.
 
-**Arithmetic method**: Use this when you want to show off in coding interviews or when you're working on embedded 
+**Arithmetic method**: Use this when you want to show off in coding interviews or when you're working on embedded
 systems where every byte of memory costs more than your morning coffee.
 
-**XOR method**: Perfect for when you want to write code that makes people go "wait, what?" Also great for competitive 
+**XOR method**: Perfect for when you want to write code that makes people go "wait, what?" Also great for competitive
 programming, where being unnecessarily clever is actually encouraged.
 
 Look, I get it. These alternative methods are fun. They make you feel smart. They're conversation starters. But

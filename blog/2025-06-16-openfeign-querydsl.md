@@ -1,17 +1,9 @@
-## Table of Contents
-
-<!-- TOC -->
-  * [Table of Contents](#table-of-contents)
-  * [!!!Update!!!](#update)
-    * [2025-06-16](#2025-06-16)
-  * [Current state of `QueryDSL`](#current-state-of-querydsl)
-  * [Old Implementation](#old-implementation)
-    * [Dependency Declaration](#dependency-declaration)
-    * [Maven Plugin `maven-compiler-plugin` Configuration](#maven-plugin-maven-compiler-plugin-configuration)
-  * [New Approach by OpenFeign Team](#new-approach-by-openfeign-team)
-    * [Dependency Declaration](#dependency-declaration-1)
-    * [Maven Plugin `maven-compiler-plugin` Configuration](#maven-plugin-maven-compiler-plugin-configuration-1)
-<!-- TOC -->
+---
+slug: openfeign-querydsl
+title: OpenFeign's QueryDSL
+authors: [vulinh64]
+tags: [java, querydsl, openfeign]
+---
 
 ## !!!Update!!!
 
